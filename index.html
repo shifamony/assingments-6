@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging News for You</title>
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-light py-4">
+        <div class="container">
+            <a class="navbar-brand text-primary fw-bold text-uppercase" href="#">Blogging News for You</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavs" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavs">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item me-4">
+                    <a href="index.html" aria-current="page" class="nav-link text-primary fw-bold border-bottom border-primary border-2 fw-bold fs-5 active">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link fw-bold fs-5">Blog</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <div class="border border-1 border-muted"></div>
+    </header>
+<!--============================= HEADER END IS HERE =======================-->
+<!--============================= START NEWSPAPER CATEGORI IS HERE =======================-->
+<main class="pb-5">
+    <section>
+      <nav class="navbar navbar-expand-lg bg-light py-4">
+          <div class="container">
+            <div class="">
+              <ul class="navbar-nav" id="navbarNav">
+
+                <!--================== NEWS CATEGORI IS HERE =======================-->
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </section>
+<!--=============== FOUND TEXT IS HERE =================================-->
+ <section>
+    <div class="container my-5 py-3" style="background-color:#fff;">
+      <h4 id="found-news">No found any news</h4>
+    </div>
+  </section>
+  <!--==========    MAIN CONTAINER OF NEWS  ========================-->
+  <section>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4" id="shows-news">
+        <!-- =================  SHOW ALL NEWS IS  HERE ===================-->
+        
+      </div>
+    </div>
+  </section>
+  
+  <!--==========    DETAILS OF THE NEWS MODAL  ========================-->
+  <section class="text-center mb-5">
+  
+    <!-- Modal -->
+    <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="details-body">
+
+            <!-- ALL THE DETAILS IS HERE -->
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    </section>
+    
+     <!--===================== LODING SPINNER IS HERE ==========================-->
+     <section class="d-none" id="loader">
+        <div class="d-flex justify-content-center align-items-center" style="height: 300px;">
+            <div class="spinner-border text-success" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+      </section>
+      </main>
+
+   <!--=============== FOOTER SECTION IS HERE  =========================-->
+<footer class="fixed-bottom" style="background-color:#fff ;">
+    <div class="container py-4">
+      <p class="text-center ">Copyright &copy; 2022 Blogging News for You</p>
+    </div>
+</footer>   
+<!--================ ALL JS FILE IS HERE ================================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="news.js"></script>
+</body>
+</html>
